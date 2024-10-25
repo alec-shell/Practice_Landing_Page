@@ -1,0 +1,108 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100dv;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px 150px 200px;
+    color: #E5E7EB;;
+}
+
+.head-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 150px;
+}
+
+.head-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+
+.mission {
+    display: flex;
+    font-size: 18px;
+    gap: 30px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.hero-main {
+    font-size: 48px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+}
+
+.hero-img {
+    border-radius: 10px;
+    height: 250px;
+    width: auto;
+}
+
+.sign-up-one {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.content {
+    min-height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid blue;
+    gap: 50px;
+    min-height: 100px;
+}
+
+.products div {
+    border: 2px solid red;
+    min-width: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    min-height: 300px;
+}
+
+.signup {
+    min-height: 280px;
+}
+
+.footer {
+    background-color: #1F2937;
+    min-height: 120px;
+}
